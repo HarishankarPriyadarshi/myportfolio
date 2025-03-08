@@ -1,3 +1,11 @@
+import drumkit from '../images/drumkit.png'
+import hotstar from "../images/hotstar.png"
+import restaurant from "../images/restaurant.png"
+import weatheraapp from '../images/weatherapp.png'
+import portfolio from "../images/portfolio.png"
+import todos from '../images/todos.png'
+import uber from "../images/uber.png"
+
 export const Bio = {
   name: "HariShankar",
   roles: [
@@ -264,7 +272,7 @@ export const projects = [
     description:
       "Uber Web Clone is a MERN stack-based ride-hailing web application that enables real-time communication between users and captains using WebSockets. It features real-time ride requests, notifications, and dynamic ride tracking for a seamless user experience.",
     image:
-      "https://your-image-url.com/uber-clone.png",
+      uber,
     tags: [
       "MERN Stack",
       "WebSockets",
@@ -276,9 +284,9 @@ export const projects = [
       "Redux",
       "Tailwind CSS",
     ],
-    category: "Web App",
+    category: "web app",
     github: "https://github.com/HarishankarPriyadarshi/Uber-WebApp",
-    webapp: "https://your-uber-clone-app.com"
+    webapp: "https://github.com/HarishankarPriyadarshi/Uber-WebApp"
   },
 
   // {
@@ -315,7 +323,7 @@ export const projects = [
     description:
       "A simple and intuitive weather application built using React.js, HTML, and CSS, integrated with the OpenWeather API to provide real-time weather updates, temperature details, and many details based on user input.",
     image:
-      "https://your-image-url.com/weather-app.png",
+      weatheraapp,
     tags: [
       "React.js",
       "OpenWeather API",
@@ -324,9 +332,9 @@ export const projects = [
       "REST API",
       "Axios",
     ],
-    category: "Web App",
-    github: "https://github.com/yourusername/weather-app", // Replace with actual GitHub link
-    webapp: "https://your-weather-app.com", // Replace with actual deployed app link
+    category: "web app",
+    github: "https://github.com/HarishankarPriyadarshi/WeatherApp",
+    webapp: "https://weathermonitoring.netlify.app/", // Replace with actual deployed app link
   },
 
   {
@@ -336,7 +344,7 @@ export const projects = [
     description:
       "Developed an interactive drum kit using HTML, CSS, and JavaScript. Implemented keyboard event listeners to trigger unique drum sounds when corresponding keys are pressed. Enhanced the user experience with CSS animations for visual feedback on keypress. The project is deployed online for public access.",
     image:
-      "https://your-image-url.com/drum-kit.png", // Replace with actual image URL
+      drumkit,
     tags: [
       "HTML",
       "CSS",
@@ -345,9 +353,9 @@ export const projects = [
       "Audio API",
       "Animations",
     ],
-    category: "Web App",
-    github: "https://github.com/yourusername/drum-kit", // Replace with actual GitHub link
-    webapp: "https://your-drum-kit-app.com", // Replace with actual deployed app link
+    category: "web app",
+    github: "https://github.com/HarishankarPriyadarshi/Drum-kit",
+    webapp: "https://harishankarpriyadarshi.github.io/Drum-kit/"
   },
 
   {
@@ -357,7 +365,7 @@ export const projects = [
     description:
       "A simple and responsive Todo App built using React and Context API. It allows users to add, edit, delete, and mark tasks as complete. Todos are saved in local storage, ensuring persistence even after a page refresh. The app features a clean UI built with Tailwind CSS for a seamless user experience.",
     image:
-      "https://your-image-url.com/todo-app.png", // Replace with actual image URL
+      todos,
     tags: [
       "React.js",
       "Context API",
@@ -366,9 +374,9 @@ export const projects = [
       "Tailwind CSS",
       "LocalStorage",
     ],
-    category: "Web App",
-    github: "https://github.com/yourusername/todo-app", // Replace with actual GitHub link
-    webapp: "https://your-todo-app.com", // Replace with actual deployed app link
+    category: "web app",
+    github: "https://github.com/HarishankarPriyadarshi/TodoApp", // Replace with actual GitHub link
+    webapp: "https://github.com/HarishankarPriyadarshi/TodoApp", // Replace with actual deployed app link
   },
 
   {
@@ -378,7 +386,7 @@ export const projects = [
     description:
       "Performed an in-depth analysis of restaurant data in Bangalore to extract insights on locations, cuisine types, customer ratings, votes, and online delivery services. The project helps potential restaurant owners and franchisees make informed decisions to maximize profitability.",
     image:
-      "https://your-image-url.com/zomato-analysis.png", // Replace with actual image URL
+      restaurant,
     tags: [
       "Data Analysis",
       "Python",
@@ -388,8 +396,8 @@ export const projects = [
       "Jupyter Notebook",
     ],
     category: "machine learning",
-    github: "https://github.com/yourusername/zomato-bangalore-analysis", // Replace with actual GitHub link
-    webapp: "", // If hosted, provide the link
+    github: "https://github.com/HarishankarPriyadarshi/Restaurant-Sales-Analysis",
+    webapp: "https://github.com/HarishankarPriyadarshi/Restaurant-Sales-Analysis",
   },
   {
     id: 15,
@@ -398,7 +406,7 @@ export const projects = [
     description:
       "Developed a frontend replica of the Disney+ Hotstar streaming platform using HTML, CSS, and JavaScript. Implemented interactive features such as a carousel, card slider, and video card interactions, along with CSS gradient effects to enhance the UI experience.",
     image:
-      "https://your-image-url.com/hotstar-clone.png", // Replace with actual image URL
+      hotstar,
     tags: [
       "HTML",
       "CSS",
@@ -407,9 +415,29 @@ export const projects = [
       "Card Slider",
       "CSS Gradients",
     ],
-    category: "Web App",
-    github: "https://github.com/yourusername/disney-hotstar-clone", // Replace with actual GitHub link
-    webapp: "https://your-hotstar-clone.com", // Replace with actual deployed app link
+    category: "web app",
+    github: "https://github.com/HarishankarPriyadarshi/Hotstar-clone-",
+    webapp: "https://harishankarpriyadarshi.github.io/Hotstar-clone-/"
+  },
+  {
+    id: 16,
+    title: "Personal Portfolio Website",
+    date: "2025",
+    description:
+      "A sleek and responsive portfolio website built with React.js and styled-components. It showcases projects, skills, and experience, featuring animations, and an interactive UI. The website is fully responsive and optimized for performance.",
+    image: portfolio,
+    tags: [
+      "React.js",
+      "Styled Components",
+      "Framer Motion",
+      "JavaScript",
+      "CSS",
+      "Dark Mode",
+      "Responsive Design",
+    ],
+    category: "web app",
+    github: "https://github.com/HarishankarPriyadarshi/myportfolio",
+    webapp: "https://harishankarportfolio423.netlify.app/",
   },
 
 ];
