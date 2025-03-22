@@ -18,7 +18,7 @@ export const Bio = {
   github: "https://github.com/HarishankarPriyadarshi",
   resume:
     "https://drive.google.com/file/d/1L3hZBkjjxuZR01UZwkREf_SezdANgpc6/view",
-  linkedin: "https://www.linkedin.com/in/harishankar-priyadarshi-a92a8b212/",
+  linkedin: "https://www.linkedin.com/in/harishankar-kumar-ram-a92a8b212",
   twitter: "https://twitter.com",
   insta: "https://www.instagram.com/who_i_am_423",
   facebook: "https://www.facebook.com",
