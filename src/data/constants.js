@@ -307,7 +307,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/HarishankarPriyadarshi/Uber-WebApp",
-    webapp: "https://github.com/HarishankarPriyadarshi/Uber-WebApp"
+    webapp: "https://uberwebapp.netlify.app"
   },
 
   // {
